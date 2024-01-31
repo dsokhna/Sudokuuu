@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sudoku</string>
+    <string name="share_button_description">share</string>
+    <string name="search_buton">rechercher</string>
+    <string name="profile_image_description">photo du profile</string>
+    <string name="nomdutilisateur_placeholder">nom d\'utilisateur</string>
+</resources>

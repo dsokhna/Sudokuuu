@@ -1,0 +1,30 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/profileImageView"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:contentDescription="@string/profile_image_description"
+            />
+<!-- android:src="@drawable/profile" -->
+
+
+        <TextView
+            android:id="@+id/nomdutilisateur"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingStart="16dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:text="@string/nomdutilisateur_placeholder"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:maxLines="1"/>
+
+    </LinearLayout>

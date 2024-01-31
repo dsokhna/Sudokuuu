@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+   <com.example.sudoku.view.SudokuGridView
+       android:id="@+id/Board"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       tools:layout_editor_absoluteX="0dp" />
+
+   <GridLayout
+       android:id="@+id/Pad"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:columnCount="3"
+       android:rowCount="3"
+       app:layout_constraintBottom_toBottomOf="parent"
+       tools:ignore="MissingConstraints">
+
+      <Button
+          android:id="@+id/OneButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_row="0"
+          android:layout_column="0"
+          android:text="1"></Button>
+
+      <Button
+          android:id="@+id/TwoButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_row="0"
+          android:layout_column="1"
+          android:text="2"></Button>
+
+      <Button
+          android:id="@+id/ThreeButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_row="0"
+          android:layout_column="2"
+          android:text="3"></Button>
+
+      <Button
+          android:id="@+id/FourButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_row="1"
+          android:layout_column="0"
+          android:text="4"></Button>
+
+      <Button
+          android:id="@+id/FiveButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_row="1"
+          android:layout_column="1"
+          android:text="5"></Button>
+
+      <Button
+          android:id="@+id/SixButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_row="1"
+          android:layout_column="2"
+          android:text="6"></Button>
+
+      <Button
+          android:id="@+id/SevenButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_row="2"
+          android:layout_column="0"
+          android:text="7"></Button>
+
+      <Button
+          android:id="@+id/EightButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_row="2"
+          android:layout_column="1"
+          android:text="8"></Button>
+
+      <Button
+          android:id="@+id/NineButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_row="2"
+          android:layout_column="2"
+          android:text="9"></Button>
+
+     <Switch
+         android:id="@+id/NoteSwitch"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Notes"
+         android:checked="false">
+     </Switch>
+
+      <Button
+          android:id="@+id/Delete"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Delete"></Button>
+
+       <Button
+           android:id="@+id/NewGame"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="New Game"></Button>
+       
+
+       
+   </GridLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_constraintStart_toEndOf="@id/Pad"
+    app:layout_constraintBottom_toBottomOf="parent"
+    tools:ignore="MissingConstraints">
+
+    <Button
+        android:id="@+id/Retour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        app:layout_constraintStart_toEndOf="@id/Pad"
+        app:layout_constraintBottom_toBottomOf="parent"></Button>
+
+    <Chronometer
+        android:id="@+id/SimpleChronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Chronometer>
+
+    <TextView
+        android:id="@+id/TextViewMistake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mistakes: 0">
+    </TextView>
+</LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

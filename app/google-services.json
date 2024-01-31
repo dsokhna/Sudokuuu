@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "78050432895",
+    "firebase_url": "https://logging-df002-default-rtdb.firebaseio.com",
+    "project_id": "logging-df002",
+    "storage_bucket": "logging-df002.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78050432895:android:6fee3c393a851b4e26ac4a",
+        "android_client_info": {
+          "package_name": "com.example.gestiondesutilisateur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78050432895-j89hsodlh55vg6u7l68tq01l0m8odrbq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAAMsEq3slAJmTTEKOhh-81s32DHsDUB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78050432895-j89hsodlh55vg6u7l68tq01l0m8odrbq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78050432895:android:f6d1e924a08c3e7a26ac4a",
+        "android_client_info": {
+          "package_name": "com.example.loginprojet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78050432895-j89hsodlh55vg6u7l68tq01l0m8odrbq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAAMsEq3slAJmTTEKOhh-81s32DHsDUB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78050432895-j89hsodlh55vg6u7l68tq01l0m8odrbq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78050432895:android:136f0a0f264e89c826ac4a",
+        "android_client_info": {
+          "package_name": "com.example.sudoku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78050432895-j89hsodlh55vg6u7l68tq01l0m8odrbq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAAMsEq3slAJmTTEKOhh-81s32DHsDUB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78050432895-j89hsodlh55vg6u7l68tq01l0m8odrbq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

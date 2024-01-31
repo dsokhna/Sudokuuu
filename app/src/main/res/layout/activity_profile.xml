@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ProfileActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@color/purple_500"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recview"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileImageView"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+
+            android:scaleType="centerCrop"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/white" />
+       <!-- android:src="@drawable/profile" -->
+
+        <TextView
+            android:id="@+id/nomdutilisateur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:paddingTop="26dp"
+            android:text="Nom d'utilisateur"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="350dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/nom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mon nom"
+            android:textSize="20dp"
+            android:textColor="@color/purple_500"
+           />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="390dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal"
+       >
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginBottom="30dp"
+                android:text="Plus Haut Score "
+                android:textColor="@color/purple_500"
+                android:textSize="25dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="360dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2555"
+            android:textColor="@color/purple_500"
+            android:textSize="20dp"
+            android:layout_gravity="bottom|center_horizontal"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="430dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal"
+        >
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="130dp"
+        android:src="@drawable/baseline_access_time_filled_24"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="440dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/temps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:text="2555"
+            android:textColor="@color/purple_500"
+            android:textSize="20dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="540dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/partage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Partager ton Score "
+            android:textSize="15sp"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/white"
+            android:drawablePadding="8dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/Retour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Retour"
+            android:textSize="15sp"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sudoku"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:translationX="168dp"
+        android:translationY="125dp"
+        tools:ignore="MissingConstraints"></TextView>
+
+    <Button
+        android:id="@+id/StartGameButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Game"
+        android:translationX="140dp"
+        android:translationY="250dp"
+        tools:ignore="MissingConstraints"></Button>
+
+    <Button
+        android:id="@+id/ProfileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:translationX="157dp"
+        android:translationY="500dp"
+        tools:ignore="MissingConstraints"></Button>
+
+    <Button
+        android:id="@+id/LeaderboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leaderboard"
+        android:translationX="134dp"
+        android:translationY="375dp"
+        tools:ignore="MissingConstraints"></Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
